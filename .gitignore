@@ -1,0 +1,37 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.backup
+
+# Terraform and Terragrunt plan/log files
+*.tfplan
+*.log
+*.tfcrash
+crash.log
+
+# Terraform & Terragrunt working directories (recursively)
+.terraform/
+**/.terraform/
+**/.terragrunt-cache/
+
+# Auto-generated and override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+terraform.tfvars.json
+terragrunt-debug.tfvars.json
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+.env
+.envrc
+secrets.env
+secrets.yaml
+
+# IDE/system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
